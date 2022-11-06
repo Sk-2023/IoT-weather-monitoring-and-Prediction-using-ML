@@ -11,8 +11,8 @@ int sensorValue2 = 0;  // variable to store the value coming from sensor Rain se
 #define ALTITUDE 75.0 // Altitude of SparkFun's HQ in Boulder, CO. in meters
 String apiKey = "UTI0S5FDS0NNU5VO";//  Enter your Write API key from ThingSpeak
 
-const char *ssid =  "BSNL-wifi"; // replace with your wifi ssid and wpa2 key
-const char *pass =  "MKSram@2001";
+const char *ssid =  ""; // replace with your wifi ssid and wpa2 key
+const char *pass =  "";
 const char* server = "api.thingspeak.com";
 
 #define DHTPIN 0 //pin where the dht11 is connected
